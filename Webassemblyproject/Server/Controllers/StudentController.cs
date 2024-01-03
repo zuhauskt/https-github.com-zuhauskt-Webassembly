@@ -43,11 +43,11 @@ namespace Webassemblyproject.Server.Controllers
             return students;
         }
 
-        // GET: api/student/marks/55
+        // GET: api/student/marks/50
         [HttpGet("marks55")]
-        public async Task<ActionResult<IEnumerable<Student>>> GetStudentsWithMarksequalto55()
+        public async Task<ActionResult<IEnumerable<Student>>> GetStudentsWithMarksequalto50()
         {
-            var students = await _appDbContext.Students.Where(s => s.Mark==55).ToListAsync();
+            var students = await _appDbContext.Students.Where(s => s.Mark==50).ToListAsync();
             return students;
         }
 
