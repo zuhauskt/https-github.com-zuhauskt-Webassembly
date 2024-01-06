@@ -51,6 +51,6 @@ namespace Webassemblyproject.Server.Controllers
             return students;
         }
 
-        // Other actions (e.g., POST, PUT, DELETE) can be added based on your requirements
+        
     }
 }

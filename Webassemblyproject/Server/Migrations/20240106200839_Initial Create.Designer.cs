@@ -11,8 +11,8 @@ using Webassemblyproject.Server.Data;
 namespace Webassemblyproject.Server.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240104192205_initial Create")]
-    partial class initialCreate
+    [Migration("20240106200839_Initial Create")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
